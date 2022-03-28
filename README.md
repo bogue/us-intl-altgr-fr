@@ -1,4 +1,6 @@
-# United States (International) with AltGr dead keys
+# United States (International) with AltGr dead keys - French
+## Credits
+All due credits go to [Thomas Faingnaert](/thomasfaingnaert), as this is a simple extension of [his original work](/thomasfaingnaert/win-us-intl-altgr) tailored for French. 
 ## Introduction
 Windows includes a keyboard layout called "United States (International)", which allows typing many special characters easily.
 The layout defines several keys as "dead keys", such as the apostrophe (`'`) and double quotes (`"`).
@@ -7,15 +9,33 @@ This can be annoying when you need to enter a lot of these characters, since eac
 
 In Linux, there is a keyboard layout named "USA International (AltGr dead keys)" that solves this problem and still allows typing special characters.
 If you want to type `'`, you just press `'`.
-If you want to use `'` as a dead key, you use AltGr (right alt): e.g. `AltGr+' a` will produce `á`.
+If you want to use `'` as a dead key, you use AltGr (right alt): e.g. `AltGr+' a` will produce `à`.
 
-This repo is a modified version of the default Windows "United States (International)" keyboard layout that mimics the behaviour found in Linux.
+This repo is a modified version of Thomas's own take on the default Windows "United States (International)" keyboard layout that mimics the behaviour found in Linux.
 All five dead keys (`` ` ``, `~`, `^`, `'` and `"`) are now only dead when AltGr is pressed, otherwise they function as normal keys.
 Note that the original layout already defines several AltGr combinations, e.g. `AltGr+'` becomes `´`.
 If you want to type these characters in the modified layout, you should follow the old keycombination with a space: e.g. `AltGr+' <SPACE>` will produce `´`.
 
+Building on Thomas's work, this extension provides an easier access to French characters using the following mapping:
+
+- `AltGr + a`: à
+- `AltGr + s`: â
+- `AltGr + q`: ä
+- `AltGr + w`: è
+- `AltGr + e`: é
+- `AltGr + r`: ê
+- `AltGr + t`: ë
+- `AltGr + y`: ù
+- `AltGr + u`: û
+- `AltGr + i`: î
+- `AltGr + j`: ï
+- `AltGr + o`: ô
+- `AltGr + o`: ô
+- `AltGr + p`: ö
+- `AltGr + c`: ç
+
 ## How to Build or Install
-You can download the latest installer from the releases tab of this repo (https://github.com/thomasfaingnaert/win-us-intl-altgr/releases).
+You can download the latest installer from the releases tab of this repo (https://github.com/bogue/win-us-intl-altgr-fr/releases).
 
 If you prefer to build from source, you can open the .KLC source file in Microsoft Keyboard Layout Creator.
 After opening the file, choose Project > Build DLL and Setup Package in the menu to create an installer.
