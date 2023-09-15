@@ -1,6 +1,8 @@
 # United States (International) with AltGr dead keys - French
 ## Credits
-All due credits go to [Thomas Faingnaert](https://github.com//thomasfaingnaert), as this is a simple extension of [his original work](https://github.com//thomasfaingnaert/win-us-intl-altgr) tailored for French. 
+All due credits go to 
+- Windows: [Thomas Faingnaert](https://github.com//thomasfaingnaert)
+- Mac: [xv0x7c0](https://github.com/xv0x7c0/osx-us-altgr-intl/)
 ## Introduction
 Windows includes a keyboard layout called "United States (International)", which allows typing many special characters easily.
 The layout defines several keys as "dead keys", such as the apostrophe (`'`) and double quotes (`"`).
@@ -11,12 +13,11 @@ In Linux, there is a keyboard layout named "USA International (AltGr dead keys)"
 If you want to type `'`, you just press `'`.
 If you want to use `'` as a dead key, you use AltGr (right alt): e.g. `AltGr+' a` will produce `à`.
 
-This repo is a modified version of Thomas's own take on the default Windows "United States (International)" keyboard layout that mimics the behaviour found in Linux.
 All five dead keys (`` ` ``, `~`, `^`, `'` and `"`) are now only dead when AltGr is pressed, otherwise they function as normal keys.
 Note that the original layout already defines several AltGr combinations, e.g. `AltGr+'` becomes `´`.
 If you want to type these characters in the modified layout, you should follow the old keycombination with a space: e.g. `AltGr+' <SPACE>` will produce `´`.
 
-Building on Thomas's work, this layout provides an easier access to French characters using the following mapping:
+This layout provides an easier access to French characters using the following mapping:
 
 - `AltGr + a`: à
 - `AltGr + s`: â
