@@ -36,7 +36,7 @@ This layout provides an easier access to French characters using the following m
 - `AltGr + c`: ç
 
 ## How to Build or Install
-You can download the latest installer from the releases tab of this repo (https://github.com/bogue/win-us-intl-altgr-fr/releases).
+You can download the latest installer from the releases tab of this repo (https://github.com/bogue/us-intl-altgr-fr/releases).
 
 If you prefer to build from source, you can open the .KLC source file in Microsoft Keyboard Layout Creator.
 After opening the file, choose Project > Build DLL and Setup Package in the menu to create an installer.
