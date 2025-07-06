@@ -1,7 +1,7 @@
 # United States (International) with AltGr dead keys - French
 ## Credits
 All due credits go to 
-- Windows: [Thomas Faingnaert](https://github.com//thomasfaingnaert)
+- Windows: [Thomas Faingnaert](https://github.com/thomasfaingnaert)
 - Mac: [xv0x7c0](https://github.com/xv0x7c0/osx-us-altgr-intl/)
 ## Introduction
 Windows includes a keyboard layout called "United States (International)", which allows typing many special characters easily.
@@ -31,12 +31,22 @@ This layout provides an easier access to French characters using the following m
 - `AltGr + i`: î
 - `AltGr + j`: ï
 - `AltGr + o`: ô
-- `AltGr + o`: ô
 - `AltGr + p`: ö
 - `AltGr + c`: ç
 
 ## How to Build or Install
-You can download the latest installer from the releases tab of this repo (https://github.com/bogue/us-intl-altgr-fr/releases).
+
+### Linux
+To install the layout on Linux, run the `install_bogue_layout.sh` script located in the `linux/` directory. This script needs to be run with root privileges:
+
+```bash
+sudo ./linux/install_bogue_layout.sh
+```
+
+After running the script, you will need to log out and log back in for the changes to take effect. You should then be able to select "English (US, intl., with AltGr FR by Bogue)" from your system's keyboard layout settings.
+
+### Windows
+You can download the latest installer from the releases tab of this repo (https://github.com/bogue/win-us-intl-altgr-fr/releases).
 
 If you prefer to build from source, you can open the .KLC source file in Microsoft Keyboard Layout Creator.
 After opening the file, choose Project > Build DLL and Setup Package in the menu to create an installer.
